@@ -16,7 +16,7 @@
 
 :white_circle: **[Personal Portfolio Webpage](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/05-personal_portfolio_webpage)** :white_check_mark:
 
-## Certificate of completion 🏆
+## Certificate of Completion 🏆
 
 <p align="center"><img src="./certificateofcompletion.png"></p>
 
