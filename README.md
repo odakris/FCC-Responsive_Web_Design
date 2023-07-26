@@ -2,6 +2,8 @@
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
+[freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) Responsive Web Design projects
+
 ## Content
 
 :white_circle: **[Survey Form](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/01-survey_form)** :white_check_mark:
