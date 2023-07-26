@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<header>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=deveice-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product Landing Page</title>
+</header>
+
+<body>
+
+    <main class="page-wrapper">
+
+        <header id="header" class="flex-column">
+
+            <!-- <div class="logo">
+                <a href="#titles"><img src="./Images/Lag_Guitar_logo.jpg" alt="Lag_Guitar_logo" id="header-img" /></a>
+            </div> -->
+
+            <nav id="nav-bar">
+                <ul class="flex-row">
+                    <li class="tab"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="tab"><a href="#how_it_works" class="nav-link">How It Works</a></li>
+                    <li class="logo"><img
+                            src="https://upload.wikimedia.org/wikipedia/fr/archive/6/6d/20130710073146%21Lag_Guitar.jpg"
+                            alt="Lag_Guitar_logo" id="header-img" />
+                    </li>
+                    <li class="tab"><a href="#guitar" class="nav-link">Guitars</a></li>
+                    <li class="tab"><a href="#quotes" class="nav-link">Quotes</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div class="container">
+            <section id="hero">
+                <h1>Lâg Guitars</h1>
+                <h3>By Michel Chavarria, since 1978</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input name="email" id="email" type="email" placeholder="Enter your email" required />
+                    <input id="submit" type="submit" value="Get Started" />
+                </form>
+            </section>
+
+            <hr />
+
+            <section id="features">
+                <div class="feature flex-row">
+                    <div class="icon">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Premium Guitars</h2>
+                        <p>World wide know guitar brand that won over some famous musicians like Jean-Jacques Goldman,
+                            Keziah Jones or Neil Diamond.</p>
+                    </div>
+                </div>
+                <div class="feature flex-row">
+                    <div class="icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Fast Shipping</h2>
+                        <p>We make sure you recieve your guitar as soon as possible. We also provide free returns if you
+                            are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="feature flex-row">
+                    <div class="icon">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Quality Assurance</h2>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check
+                            and test the pitch of your instrument.</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr />
+
+            <section id="how_it_works">
+                <iframe id="video" src="https://www.youtube.com/embed/Rp9mRlW7Tgo" title="YouTube video player"
+                    allowfullscreen></iframe>
+            </section>
+
+            <hr />
+
+            <section id="guitar" class="flex-row">
+                <div class="sales flex-column">
+                    <div class="guitar-name">
+                        <h2>Occitania 70</h2>
+                    </div>
+                    <div class="guitar-img">
+                        <img src="https://www.lagguitars.com/uploads/series/banner/GLA-OC70-3-HIT-13.jpg"
+                            alt="occitania70" />
+                    </div>
+                    <button class="btn">SELECT</button>
+                </div>
+                <div class="sales flex-column">
+                    <div class="guitar-name">
+                        <h2>Tramontane 98</h2>
+                    </div>
+                    <div class="guitar-img">
+                        <img src="https://www.lagguitars.com/uploads/series/banner/GLA-T98A-13.jpg"
+                            alt="tramontane98" />
+                    </div>
+                    <button class="btn">SELECT</button>
+                </div>
+                <div class="sales flex-column">
+                    <div class="guitar-name">
+                        <h2>Travel</h2>
+                    </div>
+                    <div class="guitar-img">
+                        <img src="https://www.lagguitars.com/uploads/series/banner/GLA-TRAVEL-KA-20.jpg" alt="travel" />
+                    </div>
+                    <button class="btn">SELECT</button>
+                </div>
+            </section>
+
+            <hr />
+
+            <section id="quotes">
+                <blockquote class="quote">
+                    <cite>Pour avoir testé plusieurs Lâg, j’ai toujours été surpris par la qualité du son.
+                        Même sur les modèles d’entrée de gamme, on retrouve un son plein avec de la personnalité, un
+                        grand
+                        confort de jeu et une qualité irréprochable.</cite>
+                </blockquote>
+
+                <blockquote class="quote">
+                    <cite>Les guitares Lag ont un bon rapport qualité prix, manche facile à jouer,
+                        elles sont
+                        plutôt tourné
+                        vers le picking avec un son assez feutré pour les modèles en cèdre</cite>
+                </blockquote>
+
+                <blockquote class="quote">
+                    <cite>Un vrai plaisir à prendre en main, je recommande !</cite>
+                </blockquote>
+
+            </section>
+
+            <footer class="footer">
+                <ul>
+                    <li><a href="#hero">Privacy</a></li>
+                    <li><a href="#hero">Terms</a></li>
+                    <li><a href="#hero">Contact</a></li>
+                </ul>
+                <span>Copyright, Guitar Lâg</span>
+                <p>freeCodeCamp - Responsive Web Design Certification - Created by ODAKRIS</p>
+            </footer>
+
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
