@@ -2,6 +2,5 @@
 
 ## Certificate of completion 🏆
 
-<p align="center">
-  <img src="./certificateofcompletion.png">
-</p>
+<img align="center" src="./certificateofcompletion.png">
+
