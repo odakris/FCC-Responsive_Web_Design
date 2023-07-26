@@ -1,1 +1,3 @@
-# FCC-Responsive_Web_Design
+# freeCodeCamp-Responsive Web Design
+
+## Certificate of completion 🏆
