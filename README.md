@@ -12,7 +12,7 @@
 
 :white_circle: **[Product Landing Page](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/04-product_landing_page)** :white_check_mark:
 
-:white_circle: **[Personal_Portfolio Webpage](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/05-personal_portfolio_webpage)** :white_check_mark:
+:white_circle: **[Personal Portfolio Webpage](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/05-personal_portfolio_webpage)** :white_check_mark:
 
 ## Certificate of completion 🏆
 
