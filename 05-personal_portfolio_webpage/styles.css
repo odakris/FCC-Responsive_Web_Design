@@ -1,0 +1,247 @@
+:root {
+    --text: linen;
+    --navbar: black;
+    --red: rgb(180, 61, 40);
+    --green: #677351;
+    --project-title: rgba(128, 128, 128, 0.856);
+    --welcome: #677351ad;
+    --footer: black;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, 'Century Gothic', sans-serif;
+    color: var(--text);
+    scroll-behavior: smooth !important;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+/* navbar */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--navbar);
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list a {
+    display: block;
+    padding: 1rem;
+    margin: 0 2rem;
+    font-size: 1.5rem;
+}
+
+.nav-list a:hover {
+    background-color: var(--green);
+}
+
+/* Welcome Section */
+
+.welcome-section {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--welcome);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+.animation_h1 {
+    background: linear-gradient(var(--green) 0%, var(--green) 100%) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.3s;
+}
+
+.animation_h1:hover {
+    background-size: 100% 100%;
+}
+
+.animation_p {
+    background: linear-gradient(-180deg, var(--text) 100%, var(--text) 0%) no-repeat;
+    background-size: 0% 100%;
+    background-position: right;
+    transition: background-size 0.3s;
+}
+
+.animation_p:hover {
+    background-size: 100% 100%;
+}
+
+.welcome-section p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 1rem;
+    color: var(--green);
+    font-family: 'arial narrow';
+}
+
+/* Project Section */
+
+.projects-section {
+    width: 100%;
+    padding: 5rem 0;
+    background-color: var(--green);
+    text-align: center;
+}
+
+.projects-section h1 {
+    text-align: center;
+}
+
+.projects-section-links {
+    max-width: 1600px;
+    min-width: 450px;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 450px));
+    grid-gap: 3rem;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 450px;
+    border-radius: 10px;
+    margin: auto;
+    transition: transform 0.3s ease-in;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+.project-img {
+    display: block;
+    width: 100%;
+    height: 345px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-tile {
+    display: block;
+    padding: 0.5rem 0;
+    border-radius: 0 0 10px 10px;
+    font-family: 'arial narrow';
+    background-color: var(--project-title);
+}
+
+.project:hover span {
+    color: rgb(184, 49, 0);
+}
+
+.code {
+    color: var(--project-title);
+    transition: color 0.3s ease-out;
+}
+
+/* Contact Section */
+
+.wave span {
+    transition: transform 0.2s ease-in-out;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.wave span {
+    transform: rotate(360deg);
+}
+
+.contact-section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(80, 80, 80, 0.829), rgba(0, 0, 0, 0.897));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact-section-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 2rem;
+}
+
+#profile-link {
+    display: block;
+    margin: 1rem 2rem;
+    transition: transform 0.4s ease-out;
+}
+
+#profile-link:hover {
+    transform: translateY(10px);
+}
+
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 6rem;
+    background-color: var(--footer);
+    border-top: 2px solid black;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+/*  media queries */
+
+@media screen and (max-width: 1000px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .project {
+        width: 300px;
+    }
+
+    .project-img {
+        height: 230px;
+    }
+
+}
