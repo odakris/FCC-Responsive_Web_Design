@@ -1,4 +1,7 @@
 # freeCodeCamp-Responsive Web Design
 
 ## Certificate of completion 🏆
-![Certificate of completion](./certificateofcompletion.png)
+
+<p align="center">
+  <img width="460" height="300" src="./certificateofcompletion.png">
+</p>
