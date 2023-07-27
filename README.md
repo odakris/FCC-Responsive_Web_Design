@@ -6,13 +6,13 @@
 
 ## Content
 
-:white_circle: **[Survey Form](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/01-survey_form)** :white_check_mark:
+:white_circle: **[Survey Form](https://codepen.io/odakris/full/yLqwMBw)** :white_check_mark:
 
-:white_circle: **[Tribute Page](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/02-tribute_page)** :white_check_mark:
+:white_circle: **[Tribute Page](https://codepen.io/odakris/full/MWBxppg)** :white_check_mark:
 
-:white_circle: **[Technical Documentation Page](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/03-technical_documentation_page)** :white_check_mark:
+:white_circle: **[Technical Documentation Page](https://codepen.io/odakris/full/gOjEmmz)** :white_check_mark:
 
-:white_circle: **[Product Landing Page](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/04-product_landing_page)** :white_check_mark:
+:white_circle: **[Product Landing Page](https://codepen.io/odakris/full/MWBxpmg)** :white_check_mark:
 
 :white_circle: **[Personal Portfolio Webpage](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/05-personal_portfolio_webpage)** :white_check_mark:
 
