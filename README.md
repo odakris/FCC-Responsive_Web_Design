@@ -14,7 +14,7 @@
 
 :white_circle: **[Product Landing Page](https://codepen.io/odakris/full/MWBxpmg)** :white_check_mark:
 
-:white_circle: **[Personal Portfolio Webpage](https://github.com/odakris/FCC-Responsive_Web_Design/tree/main/05-personal_portfolio_webpage)** :white_check_mark:
+:white_circle: **[Personal Portfolio Webpage](https://codepen.io/odakris/full/wvQYLWO)** :white_check_mark:
 
 ## Certificate of Completion 🏆
 
